@@ -50,7 +50,7 @@ public class GameController extends Thread{
     private Music gameMusic;
     private int totalScore = 0;
     
-//    private boolean gameMaker = true;
+//    private boolean gameMaker = true; //각 노래의 비트를 찍을 때 사용한 boolean값
     private int index = 0;
 
     ArrayList<Note> noteList = new ArrayList<Note>();
